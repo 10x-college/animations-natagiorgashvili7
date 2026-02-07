@@ -139,3 +139,195 @@
     font-size: 18px;
     color: #81807E;
 }
+.trends {
+    border: 2px dashed #262626;
+    margin: 20px;
+}
+.trends h2{
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 48px;
+    color: white;
+    margin: 20px;
+
+}
+.trends p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 18px;
+    color: #676665;
+    margin: 20px;
+
+}
+.crafting {
+  padding: 80px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: #111;
+  border: 1px dashed #2a2a2a;
+  padding: 30px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #555;
+  transform: translateY(-5px);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.card h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: white;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.gender {
+    gap: 30px;
+    border: 2px dashed #262626;
+    margin: 20px;
+}
+.gender h1{
+    padding: 10px;
+}
+.gender p {
+    padding: 10px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  border-radius: 20px;
+  max-width: 350px;
+}
+
+.img-box img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.info {
+    padding: 18px;    
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    font-size: 12px;
+    color: #aaa;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.info h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 13px;
+    color: #bbb;
+    margin-bottom: 14px;
+}
+
+.info p span {
+    margin-left: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid #444;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+.top {
+    display: flex;
+    gap:30px;
+    text-align: center;
+}
+.top span{
+    padding-top: 10px;
+}
+
+.faq {
+  background: #0f0f0f;
+  padding: 60px 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.faq-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.faq-item {
+  border: 1px dashed #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.faq-item p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #bdbdbd;
+}
